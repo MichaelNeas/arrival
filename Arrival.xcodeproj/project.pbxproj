@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68B210E62260305700010C7F /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B210E52260305700010C7F /* URLSession+Extension.swift */; };
+		68B210E72260305700010C7F /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B210E52260305700010C7F /* URLSession+Extension.swift */; };
+		68B210E9226030EB00010C7F /* Stops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B210E8226030EB00010C7F /* Stops.swift */; };
+		68B210EA226030EB00010C7F /* Stops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B210E8226030EB00010C7F /* Stops.swift */; };
+		68B210ED2260314800010C7F /* MBTAAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B210EC2260314800010C7F /* MBTAAPI.swift */; };
+		68B210EE2260314800010C7F /* MBTAAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B210EC2260314800010C7F /* MBTAAPI.swift */; };
 		68E1DFED2260141A0020816F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1DFEC2260141A0020816F /* AppDelegate.swift */; };
 		68E1DFEF2260141A0020816F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1DFEE2260141A0020816F /* ViewController.swift */; };
 		68E1DFF22260141A0020816F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E1DFF02260141A0020816F /* Main.storyboard */; };
@@ -18,10 +24,12 @@
 		68E1E0182260141B0020816F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E1E0162260141B0020816F /* Interface.storyboard */; };
 		68E1E01A2260141B0020816F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E1E0192260141B0020816F /* Assets.xcassets */; };
 		68E1E0212260141B0020816F /* Arrival WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 68E1E0202260141B0020816F /* Arrival WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		68E1E0262260141B0020816F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1E0252260141B0020816F /* InterfaceController.swift */; };
 		68E1E0282260141B0020816F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1E0272260141B0020816F /* ExtensionDelegate.swift */; };
 		68E1E02A2260141B0020816F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1E0292260141B0020816F /* NotificationController.swift */; };
 		68E1E02C2260141C0020816F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E1E02B2260141C0020816F /* Assets.xcassets */; };
+		68E1E04322601B2B0020816F /* BusInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1E04222601B2B0020816F /* BusInterfaceController.swift */; };
+		68E1E04522601E050020816F /* BusRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1E04422601E050020816F /* BusRowController.swift */; };
+		68E1E048226022450020816F /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1E047226022450020816F /* Bus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +89,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		68B210E52260305700010C7F /* URLSession+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extension.swift"; sourceTree = "<group>"; };
+		68B210E8226030EB00010C7F /* Stops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stops.swift; sourceTree = "<group>"; };
+		68B210EC2260314800010C7F /* MBTAAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTAAPI.swift; sourceTree = "<group>"; };
 		68E1DFE92260141A0020816F /* Arrival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arrival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E1DFEC2260141A0020816F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68E1DFEE2260141A0020816F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,12 +110,14 @@
 		68E1E0192260141B0020816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68E1E01B2260141B0020816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E1E0202260141B0020816F /* Arrival WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Arrival WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		68E1E0252260141B0020816F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		68E1E0272260141B0020816F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		68E1E0292260141B0020816F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		68E1E02B2260141C0020816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68E1E02D2260141C0020816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E1E02E2260141C0020816F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		68E1E04222601B2B0020816F /* BusInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusInterfaceController.swift; sourceTree = "<group>"; };
+		68E1E04422601E050020816F /* BusRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRowController.swift; sourceTree = "<group>"; };
+		68E1E047226022450020816F /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,9 +152,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68B210E42260303B00010C7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				68B210E52260305700010C7F /* URLSession+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		68B210EB2260312900010C7F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				68B210EC2260314800010C7F /* MBTAAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		68E1DFE02260141A0020816F = {
 			isa = PBXGroup;
 			children = (
+				68B210EB2260312900010C7F /* Networking */,
+				68B210E42260303B00010C7F /* Extensions */,
+				68E1E046226022170020816F /* Models */,
 				68E1DFEB2260141A0020816F /* Arrival */,
 				68E1E0002260141B0020816F /* ArrivalTests */,
 				68E1E00B2260141B0020816F /* ArrivalUITests */,
@@ -207,14 +239,24 @@
 		68E1E0242260141B0020816F /* Arrival WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				68E1E0252260141B0020816F /* InterfaceController.swift */,
 				68E1E0272260141B0020816F /* ExtensionDelegate.swift */,
 				68E1E0292260141B0020816F /* NotificationController.swift */,
 				68E1E02B2260141C0020816F /* Assets.xcassets */,
 				68E1E02D2260141C0020816F /* Info.plist */,
 				68E1E02E2260141C0020816F /* PushNotificationPayload.apns */,
+				68E1E04222601B2B0020816F /* BusInterfaceController.swift */,
+				68E1E04422601E050020816F /* BusRowController.swift */,
 			);
 			path = "Arrival WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		68E1E046226022170020816F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68E1E047226022450020816F /* Bus.swift */,
+				68B210E8226030EB00010C7F /* Stops.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,8 +451,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B210ED2260314800010C7F /* MBTAAPI.swift in Sources */,
 				68E1DFEF2260141A0020816F /* ViewController.swift in Sources */,
 				68E1DFED2260141A0020816F /* AppDelegate.swift in Sources */,
+				68B210E62260305700010C7F /* URLSession+Extension.swift in Sources */,
+				68B210E9226030EB00010C7F /* Stops.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,8 +480,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				68E1E02A2260141B0020816F /* NotificationController.swift in Sources */,
+				68B210EA226030EB00010C7F /* Stops.swift in Sources */,
 				68E1E0282260141B0020816F /* ExtensionDelegate.swift in Sources */,
-				68E1E0262260141B0020816F /* InterfaceController.swift in Sources */,
+				68B210E72260305700010C7F /* URLSession+Extension.swift in Sources */,
+				68E1E04322601B2B0020816F /* BusInterfaceController.swift in Sources */,
+				68E1E04522601E050020816F /* BusRowController.swift in Sources */,
+				68B210EE2260314800010C7F /* MBTAAPI.swift in Sources */,
+				68E1E048226022450020816F /* Bus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
